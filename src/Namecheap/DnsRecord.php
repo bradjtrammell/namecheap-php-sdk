@@ -46,7 +46,7 @@ namespace Namecheap
 						$key = 'ttl'; break;
 
 					default:
-						continue;
+						continue 2;
 				}
 
 				if (array_key_exists($key, $this->_data))
